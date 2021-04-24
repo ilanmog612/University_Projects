@@ -2,7 +2,7 @@ CC=gcc
 CCLINK=$(CC)
 CFLAGS=-g -Wall -std=c99
 OBJS= main.o file0.o file1.o file2.o file3.o file4.o
-EXEC= prog.exe
+EXEC= prog
 RM= *.o *.exe
 
 
@@ -32,4 +32,4 @@ main.o: main.c file0.h file1.h file2.h file3.h file4.h
 
 # by runnig "make clean"
 clean:
-	rm -rf $(RM)
+	rm -rf $(RM) $(EXEC) 
