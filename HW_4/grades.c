@@ -32,7 +32,7 @@ int grades_add_student(struct grades *grades, const char *name, int id);
 /**
  * @brief Adds a course with "name" and "grade" to the student with "id"
  * @return 0 on success
- * @note Failes if "grades" is invalid, if a student with "id" does not exist
+ * @note Failes if "grades" is invalid, if a student with "id" does not exist 
  * in "grades", if the student already has a course with "name", or if "grade"
  * is not between 0 to 100.
  */
