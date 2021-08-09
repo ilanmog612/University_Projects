@@ -5,7 +5,7 @@
 #include "input.h"
 #include "field.h"
 #define DELIMITERS " ,""="
-#define RULE_TYPE 0
+#define RULE_TYPE 0 
 #define RULE_LIMITS 1
 #define ERROR -1
 
